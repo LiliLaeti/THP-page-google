@@ -83,29 +83,28 @@ input{
     display:flex;
     align-items: center;
     justify-content:center;
-    /* line-height: 40px; */
-    width: 100%;
+     width: 100%;
     border-radius:70px;
     font-size: 15px;
-    /* position:relative; */
     text-align: center;
 }
- /* input::before{
-     content:url(img/icone-loupe.JPG);
- } */
-.search-icon{
-    /* position:absolute; */
-    /* position:left; */
-    /* display:inline;
-    justify-items: flex-start; */
-}
+
+
 .micro{
-    /* position:right;
-    display:inline; */
     border-radius: 50%;
     color:#454545;
 }
-
+.tooltip{
+    display:none;
+    width:150px;
+    color:white;
+    background:black;
+    padding: 10px;
+    font-size: 13px;
+}
+.tooltip :hover{
+    display: block;
+}
 .choix{
     display: flex;
     flex-direction: row;
