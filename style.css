@@ -1,0 +1,193 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* les icones du haut*/
+.nav{
+    padding: 5px 15px;
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.items{
+    display: inline-block; 
+    margin:0 8px;
+    padding-top:5px;
+    cursor:pointer;
+    font-size: 13px; 
+}
+.items:nth-child(1),
+.items:nth-child(2)
+{
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    color:#454545;  
+}
+
+a:hover{
+    color:#444;
+    text-decoration: underline;
+}  
+
+img.icon-appli:hover{
+    color:black;    
+}
+img.photoid{
+    border-radius:50%;
+    width:40px;
+    height: 40px;
+    object-fit: cover;
+}
+/* img.photoid:hover{
+    /* width:50px; 
+    background-color: rgb(180, 173, 173);
+    border-radius:50%;
+} */
+
+
+           /*google**************/
+.container-google{
+    display: flex;
+    flex-direction:column; 
+    align-items: center; 
+    margin-top: 100px;
+    height: 65vh;
+}
+
+.container-google Img.logo{ 
+    margin-bottom: 30px;
+}
+
+.search{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    width:50%;
+    height:40px;
+    border-radius:70px;
+    padding: 0 10px;
+    display:flex;
+    justify-content: flex-start;
+    }
+
+input{
+    border:none;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    /* line-height: 40px; */
+    width: 100%;
+    border-radius:70px;
+    font-size: 15px;
+    /* position:relative; */
+    text-align: center;
+}
+ /* input::before{
+     content:url(img/icone-loupe.JPG);
+ } */
+.search-icon{
+    /* position:absolute; */
+    /* position:left; */
+    /* display:inline;
+    justify-items: flex-start; */
+}
+.micro{
+    /* position:right;
+    display:inline; */
+    border-radius: 50%;
+    color:#454545;
+}
+
+.choix{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+}
+   
+.choix .google,
+.choix .chance
+{
+    padding: 10px 15px;
+    background-color: #f8f9f3;
+    margin-right: 20px;
+    border-radius: 5px;
+    color:#444;
+}
+
+
+.choix .google:hover,
+.choix .chance:hover{
+    border:1px solid rgb(207, 202, 202);
+    box-shadow: 0 0 2px rgb(207, 202, 202);
+}
+
+.TG a{
+    border:solid 1px #444;
+    padding: 5px;
+    margin-bottom: 40px;
+    color:rgb(5, 5, 170);
+    font-size: 14px;
+}
+.TG a :hover,
+.an :hover{
+    text-decoration: underline;
+}
+
+.langue{
+    margin-top: 40px;
+    color:#444;
+}
+.langue p{
+    font-size:13px;
+}
+.an{
+    color:rgb(5, 5, 170);
+}
+
+
+#footer {
+    background:rgb(242, 242, 242);
+    border-top:1px solid rgba(206, 201, 201, 0.89);
+    font-size: 14px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color:#444;
+}
+
+
+#footer .lieu{
+    margin-left: 30px;
+    height: 40px;
+    padding: 10px;
+}
+#footer .mention{
+    border-top:1px solid rgba(206, 201, 201, 0.89);
+}
+#footer ul{
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#footer ul li{
+    display: inline-block; 
+    margin:0 8px;
+    padding-top:5px;
+    cursor:pointer;
+    font-size: 14px; 
+}
+
+#footer img{
+    width:15px;
+    margin-right: 3px;
+}
